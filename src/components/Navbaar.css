@@ -2,5 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: rebeccapurple !important;
+}
+.navbar {
+   background-color:   rgb(0, 17, 74) !important;
+}
+.nav-btn{
+    border:  none !important;
+    outline:  none !important;
+     background-color:  transparent !important;
+      border: 2px solid transparent !important;
+      background:
+    linear-gradient(#051031, #051031) padding-box,
+    linear-gradient(to right, #38A8F5, #8055F7, #D946EF) border-box !important;
+    padding: 8px 25px !important;
 }

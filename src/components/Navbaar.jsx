@@ -8,7 +8,7 @@ export const Navbaar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">NexOra</a>
+    <a className="navbar-brand fw-bold " href="#">NexOra</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -31,7 +31,7 @@ export const Navbaar = () => {
         </li>
       </ul>
       <form className="d-flex" role="search">
-        <button className="btn btn-outline-success" type="submit">Search</button>
+        <button className="btn btn-outline-success nav-btn" type="submit">Search</button>
       </form>
     </div>
   </div>
