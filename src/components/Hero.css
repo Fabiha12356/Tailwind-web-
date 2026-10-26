@@ -1,0 +1,30 @@
+
+*{
+    color:  white !important;
+}
+.container-fuild{
+ background: linear-gradient(to right, rgb(4, 21, 61),  rgb(0, 17, 74) ) !important;
+}
+h1{
+    color: white !important;
+}
+img{
+     -webkit-background-clip: text !important;
+  color: transparent !important;
+}
+.gradient-text {
+  background: linear-gradient(to right, #38A8F5, #8055F7, #D946EF) !important;
+  -webkit-background-clip: text !important;
+  color: transparent !important;
+}
+.custon-btn{
+      background: linear-gradient(to right, #595AFC, #6254F5) !important;
+  color: white !important;
+  border: none !important;
+}
+.other-btn{
+     border: 2px solid transparent !important;
+      background:
+    linear-gradient(#051031, #051031) padding-box,
+    linear-gradient(to right, #38A8F5, #8055F7, #D946EF) border-box !important;
+}

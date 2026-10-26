@@ -1,0 +1,33 @@
+import React from 'react'
+import "./Hero.css"
+import p1 from "../assets/Hero1.png"
+
+const Hero = () => {
+  return (
+   <div className="container-fuild col-xxl-8 px-4 "> <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
+     <div className="col-10 col-sm-8 col-lg-5">
+         <img src={p1} className="d-block mx-lg-auto img-fluid" 
+         alt="Bootstrap Themes" width="700" height="500" loading="lazy"
+         style={{
+            borderRadius : "25px",
+         }}/>
+          </div> <div className="col-lg-6">
+             <h1 className="display-5 fw-bold  lh-1 mb-3">
+                Modern Web Solution
+             </h1>
+             <h1 className="display-5 fw-bold  lh-1 mb-3 gradient-text">
+                For Better Tomorrow
+             </h1>
+              <p className="lead">We create , beautiful fast nd responsive website that help your business
+                grow . let's build something amazing together </p>
+                 <div className="d-grid gap-2 d-md-flex justify-content-md-start">
+             <button type="button" className="btn  btn-lg px-4 me-md-2 custon-btn" fdprocessedid="iuyoln">Get Started</button> 
+             <button type="button" className="btn btn-outline-secondary btn-lg px-4 other-btn" fdprocessedid="hu4phq">Learn more</button> 
+   </div> 
+   </div> 
+   </div>
+    </div>
+  )
+}
+
+export default Hero
