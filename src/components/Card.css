@@ -4,18 +4,11 @@ p{
 h1{
     color:  black !important;
 }
-.inner-div{
-
-        border: 2px solid transparent;
-
-
-  background:
-    linear-gradient(white, white) padding-box,
-    linear-gradient(
-      135deg,
-      #00C6FF,
-      #6C4DFF,
-      #E040FB
-    ) border-box !important;
-
+.card-div{
+    /* border: 2px solid rgb(83, 56, 56) !important; */
+    padding: 15px 15px !important;
+    border-radius: 25px !important;
+    margin-top: 20px !important;
+    background: #ffffff !important;
+box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1) !important;
 }

@@ -1,12 +1,12 @@
 .Services{
     text-align: center !important;
-     background: linear-gradient(to right, rgb(4, 21, 61),  rgb(0, 17, 74) ) !important;
+    background-color: #F3F6FC !important;
 }
 h1{
-color:  white !important;
+color:  black !important;
 }
 p{
-color: white !important;
+color: black !important;
 }
 h6{
      background: linear-gradient(to right, #38A8F5, #8055F7, #D946EF) !important;

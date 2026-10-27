@@ -23,7 +23,8 @@ createRoot(document.getElementById('root')).render(
     <div style={{
       display : "flex",
       flexWrap : "wrap",
-      gap : "5px"
+      gap : "15px",
+      padding : "20px 20px "
     }}>
 <Cards  name={"Fast Perfomance"}  para={"Lightning-fast websites optimized for all devices."} 
 img={icon1}/>
@@ -40,6 +41,9 @@ img={icon4}/>
       <Services />
       <div style={{
         display : "flex",
+         flexWrap : "wrap",
+      gap : "15px",
+      padding : "15px 15px "
       }}>
         <Cards  name={"Web Development"} para={"Data-driven strategies to grow your online presence."} 
         img={p1}/>
@@ -52,5 +56,6 @@ img={icon4}/>
        
       </div>
 </div>
+
   </StrictMode>,
 )
