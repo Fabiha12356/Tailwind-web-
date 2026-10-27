@@ -4,3 +4,18 @@ p{
 h1{
     color:  black !important;
 }
+.inner-div{
+
+        border: 2px solid transparent;
+
+
+  background:
+    linear-gradient(white, white) padding-box,
+    linear-gradient(
+      135deg,
+      #00C6FF,
+      #6C4DFF,
+      #E040FB
+    ) border-box !important;
+
+}

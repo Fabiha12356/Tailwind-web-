@@ -9,6 +9,11 @@ import icon1 from "./assets/icon1.png"
 import icon2 from "./assets/icon2.png"
 import icon3 from "./assets/icon3.png"
 import icon4 from "./assets/icon4.png"
+import Services from './components/Services.jsx'
+import p1 from "./assets/p1.png"
+import p2 from "./assets/p2.png"
+import p3 from "./assets/p3.png"
+import p4 from "./assets/p4.png"
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -30,5 +35,22 @@ img={icon3} />
 img={icon4}/>
 
     </div>
+
+<div className='Services'>
+      <Services />
+      <div style={{
+        display : "flex",
+      }}>
+        <Cards  name={"Web Development"} para={"Data-driven strategies to grow your online presence."} 
+        img={p1}/>
+        <Cards name={"UI/UX Design"} para={"Powerful mobile applications for iOS and Android."} 
+         img={p2}/>
+        <Cards name={"Mobile Apps"} para={"Intuitive interfaces that users love to interact with."} 
+         img={p3}/>
+        <Cards name={"Digital Marketing"} para={"Custom websites built with modern technologies."}
+         img={p4} />
+       
+      </div>
+</div>
   </StrictMode>,
 )
