@@ -1,10 +1,17 @@
 import React from 'react'
 import "./Hero.css"
 import p1 from "../assets/Hero1.png"
+import p2 from "../assets/her02.png"
 
-const Hero = () => {
+const Hero = (props) => {
   return (
-   <div className="container-fuild col-xxl-8 px-4 "> <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
+   (props.condition)?
+   <>
+    <div className="container-fuild col-xxl-8 px-4  parent"
+    style={{
+        backgroundColor: "#F3F6FC"
+    }}>
+         <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
      <div className="col-10 col-sm-8 col-lg-5">
          <img src={p1} className="d-block mx-lg-auto img-fluid" 
          alt="Bootstrap Themes" width="700" height="500" loading="lazy"
@@ -27,6 +34,32 @@ const Hero = () => {
    </div> 
    </div>
     </div>
+   </>:<>
+    <div className="container-fuild col-xxl-8 px-4 "> <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
+           <div className="col-lg-6">
+            <h4>About Us</h4>
+             <h1 className="display-5 fw-bold  lh-1 mb-3">
+                Training Ideas into
+             </h1>
+             <h1 className="display-5 fw-bold  lh-1 mb-3 gradient-text">
+                Digital Reality!
+             </h1>
+              <p className="lead">We transform your creative ideas into beautiful, functional, and responsive digital experiences using modern web technologies. Let's build something amazing together!
+                 </p>
+                 <div className="d-grid gap-2 d-md-flex justify-content-md-start">
+             <button type="button" className="btn  btn-lg px-4 me-md-2 custon-btn" fdprocessedid="iuyoln">Get Started</button> 
+   </div> 
+   </div> 
+    <div className="col-10 col-sm-8 col-lg-6">
+         <img src={p2} className="d-block mx-lg-auto img-fluid" 
+         alt="Bootstrap Themes" width="700" height="500" loading="lazy"
+         style={{
+            borderRadius : "25px",
+         }}/>
+          </div>
+   </div>
+    </div>
+   </>
   )
 }
 

@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Services.css"
-export const Services = () => {
+export const Services = ({name, para,tittle}) => {
   return (
     <div className='py-5'>
-        <h6> OUR SERVICES</h6>
-        <h1> What we  Offer</h1>
-        <p>We provide a range of services to help you build grow and success online</p>
+        <h6>{name}</h6>
+        <h1>{tittle}</h1>
+        <p>{para}</p>
     </div>
   )
 }

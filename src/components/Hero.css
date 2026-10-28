@@ -2,7 +2,7 @@
 *{
     color:  white !important;
 }
-.container-fuild{
+.parent{
  background: linear-gradient(to right, rgb(4, 21, 61),  rgb(0, 17, 74) ) !important;
 }
 h1{
@@ -27,4 +27,9 @@ img{
       background:
     linear-gradient(#051031, #051031) padding-box,
     linear-gradient(to right, #38A8F5, #8055F7, #D946EF) border-box !important;
+}
+h4{
+     background: linear-gradient(to right, #38A8F5, #8055F7, #D946EF) !important;
+  -webkit-background-clip: text !important;
+  color: transparent !important;
 }

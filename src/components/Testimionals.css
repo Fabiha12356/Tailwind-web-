@@ -1,0 +1,62 @@
+.review-card {
+  width: 100%;
+  max-width: 320px;
+  padding: 18px;
+  background: #ffffff;
+  border: 1px solid #eeeaf7;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(50, 40, 100, 0.06);
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.quote-mark {
+  color: #7162e8;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.review-text {
+  color: #526078;
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 5px 0 14px;
+}
+
+.review-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-image {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-info h4 {
+  margin: 0 0 3px;
+  color: #273449;
+  font-size: 12px;
+}
+
+.user-info p {
+  margin: 0 0 3px;
+  color: #718096;
+  font-size: 10px;
+}
+
+.stars {
+  color: #f5ad18 !important;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+.Testimionals{
+display: flex !important;
+justify-content: center !important;
+ align-items: center !important;
+ gap: 20px !important;
+}

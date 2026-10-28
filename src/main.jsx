@@ -14,11 +14,16 @@ import p1 from "./assets/p1.png"
 import p2 from "./assets/p2.png"
 import p3 from "./assets/p3.png"
 import p4 from "./assets/p4.png"
+import Testimionals from './components/Testimionals.jsx'
+import Footer from './footer.jsx'
+import profile1 from "./assets/profile_1.png"
+import profile2 from "./assets/profile_2.png"
+import profile3 from "./assets/profile_3.png"
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Navbaar />
-    <Hero />
+    <Hero  condition={true} />
     
     <div style={{
       display : "flex",
@@ -38,7 +43,7 @@ img={icon4}/>
     </div>
 
 <div className='Services'>
-      <Services />
+      <Services  name={"OUR SERVICES"} tittle={"What we  Offer"} para={"We provide a range of services to help you build grow and success online"}/>
       <div style={{
         display : "flex",
          flexWrap : "wrap",
@@ -56,6 +61,21 @@ img={icon4}/>
        
       </div>
 </div>
-
+<Hero condition={false} />
+<div className='Services'>
+<Services name={"Testimionals"} tittle={"What Our Client Say"} para={"Real Stories from real people who trust Us"} />
+<div className='Testimionals'>
+  <Testimionals  tittle={"Business Ownwer"} name={"Sarah Khan"} 
+  para={"Nexora transformed our ideas into a stunning website. The team was professional, creative, and delivered exactly what we needed"}
+  img={profile1}/>
+  <Testimionals  tittle={"Founder,TechSolution"} name={"Ali Raza"} 
+  para={"Their attention to detail and modern design exceeded our expectations. Our website looks amazing and works perfectly on every device"}
+  img={profile2}/>
+  <Testimionals  tittle={"Manager,Growfast"} name={"Ayesha Malik"}
+   para={"Working with Nexora was a wonderful experience. They understood our vision and turned it into a beautiful digital experience"}
+   img={profile3}/>
+</div>
+</div>
+<Footer />
   </StrictMode>,
 )

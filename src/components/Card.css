@@ -5,10 +5,14 @@ h1{
     color:  black !important;
 }
 .card-div{
-    /* border: 2px solid rgb(83, 56, 56) !important; */
     padding: 15px 15px !important;
     border-radius: 25px !important;
     margin-top: 20px !important;
     background: #ffffff !important;
 box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1) !important;
+background:
+    linear-gradient(white, white) padding-box,
+    linear-gradient(to right, #38A8F5, #8055F7, #D946EF) border-box !important;
+
+  border: 2px solid transparent !;
 }
