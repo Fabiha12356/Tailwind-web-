@@ -1,6 +1,7 @@
 
 *{
     color:  white !important;
+    font-family: Inter, sans-serif !important;
 }
 .parent{
  background: linear-gradient(to right, rgb(4, 21, 61),  rgb(0, 17, 74) ) !important;

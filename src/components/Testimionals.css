@@ -59,4 +59,5 @@ display: flex !important;
 justify-content: center !important;
  align-items: center !important;
  gap: 20px !important;
+ padding-bottom: 50px !important;
 }
